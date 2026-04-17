@@ -7,7 +7,7 @@
 ## What you need
 
 1. A GitHub account (free)
-2. A Personal Access Token, aka PAT (your password for talking to AI models)
+2. A **GitHub Models token** (your password for talking to AI models — generated for you by the Models playground)
 
 That's it. No credit card. No school email required. Just a browser.
 
@@ -24,20 +24,20 @@ Tips:
 
 ---
 
-## Step 2 — Create a Personal Access Token (PAT)
+## Step 2 — Get your GitHub Models token
 
-This is the password your notebook uses to make AI models respond. It's important that you do this right — the token needs to have **zero scopes** (zero special permissions).
+This is the password your notebook uses to make AI models respond. The easiest way to get one is straight from the Models playground — it generates a token that's already scoped correctly for what we need.
 
-1. Sign in to GitHub and go to **[github.com/settings/tokens](https://github.com/settings/tokens)**
-2. Click **Generate new token** → **Generate new token (classic)**
-3. Fill in the form:
-   - **Note:** `ai-class` (or whatever you want — it's just a label)
-   - **Expiration:** 7 days (for safety — tokens shouldn't live forever)
-   - **Scopes:** leave **everything unchecked** ✅
-4. Scroll to the bottom and click **Generate token**
-5. **COPY THE TOKEN NOW.** It starts with `ghp_` followed by random letters and numbers.
+1. Sign in to GitHub and open **[github.com/marketplace/models/azure-openai/gpt-4o-mini/playground](https://github.com/marketplace/models/azure-openai/gpt-4o-mini/playground)**
+2. If it's your first time, accept the GitHub Models terms
+3. Click the **Use this model** button (top right of the playground)
+4. A dialog opens with setup instructions — click **Get developer key** (or "Create personal access token")
+5. GitHub takes you to a pre-filled token form. **Don't change anything.** Just scroll down and click **Generate token**
+6. **COPY THE TOKEN NOW.** It starts with `github_pat_` or `ghp_` followed by random letters and numbers.
 
-> ⚠️ You will **never see the token again** after you leave this page. Copy it somewhere safe like a notes app. If you lose it, just generate a new one — no big deal.
+> ⚠️ You will **never see the token again** after you leave this page. Copy it somewhere safe like a notes app. If you lose it, just repeat the steps above — no big deal.
+
+> 💡 **Why this way?** Going through the playground auto-configures the token with exactly the right permissions for GitHub Models. Making a plain token at `github.com/settings/tokens` often trips a "permission denied" error on the first API call.
 
 ---
 
@@ -50,7 +50,7 @@ Put the token in a notes app, a text file, anywhere you can paste from later. Yo
 - Commit it to any repo
 - Share it with anyone, not even a friend
 
-If you think someone else saw it, go back to [github.com/settings/tokens](https://github.com/settings/tokens) and click "Delete" next to it. Generate a new one.
+If you think someone else saw it, go to [github.com/settings/tokens](https://github.com/settings/tokens) and click "Delete" next to it. Then repeat Step 2 to make a new one.
 
 ---
 
@@ -70,7 +70,8 @@ This trims 90 seconds off class time for you. Not required.
 ## ✅ You're ready when you have:
 
 - [ ] A GitHub account you can sign in to
-- [ ] A `ghp_...` token copied somewhere you can paste from
+- [ ] A GitHub Models token (`github_pat_...` or `ghp_...`) copied somewhere you can paste from
+- [ ] Accepted the GitHub Models terms at least once (happens automatically the first time you open the playground)
 - [ ] A browser (Chrome, Edge, Safari, or Firefox — all fine)
 
 See you in class. 🤖

@@ -48,7 +48,7 @@ The agent **decided on its own** to load the `haiku-writer` skill — by reading
 **Read [STUDENT_PREFLIGHT.md](STUDENT_PREFLIGHT.md).** You need two things before class starts:
 
 1. A free GitHub account
-2. A Personal Access Token (the code that lets your notebook talk to AI models)
+2. A GitHub Models token — generated from the [GPT-4o mini playground](https://github.com/marketplace/models/azure-openai/gpt-4o-mini/playground) by clicking **Use this model** → **Get developer key**
 
 Takes 5 minutes. Do it before class so we can hit the ground running.
 

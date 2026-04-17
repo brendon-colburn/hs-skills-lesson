@@ -56,6 +56,8 @@ The lesson still lands — kids can still *read* the caveman SKILL.md file, see 
 
 **Rate limit sanity check:** GPT-4o-mini on GitHub Models free tier gives each student ~150 requests/day. Each kid has their own token — not shared. Class of 20-30 is fine.
 
+**Token source:** Have every student generate their token via **[github.com/marketplace/models/azure-openai/gpt-4o-mini/playground](https://github.com/marketplace/models/azure-openai/gpt-4o-mini/playground)** → **Use this model** → **Get developer key**. This flow (a) records acceptance of the GitHub Models terms, and (b) generates a token pre-scoped for the Models API. Plain "zero-scope" PATs from `settings/tokens` will often hit a permission error on the first call.
+
 **Copilot limit check:** Free tier gives each kid 2,000 completions + 50 chat messages per month. If a kid chats a lot they might burn through their 50 — completions keep working.
 
 ---
@@ -88,7 +90,12 @@ Name progressive disclosure explicitly: "You could have 100 skills. The agent ne
 6. Run cells top-to-bottom
 7. Paste PAT when prompted
 
-**Common failures:** biggest one is still "kid doesn't have a GitHub account yet" — pair them with a buddy. See `STUDENT_PREFLIGHT.md` for the full list.
+**Common failures:**
+- **"kid doesn't have a GitHub account yet"** — pair them with a buddy
+- **"permission denied" on the first API call** — their token wasn't generated from the Models playground. Send them to **[github.com/marketplace/models/azure-openai/gpt-4o-mini/playground](https://github.com/marketplace/models/azure-openai/gpt-4o-mini/playground)** → **Use this model** → **Get developer key** → generate. That flow auto-scopes the token for GitHub Models and also records the terms acceptance.
+- **"I made a token at github.com/settings/tokens with zero scopes and it still fails"** — same fix as above; use the playground route.
+
+See `STUDENT_PREFLIGHT.md` for the full list.
 
 ### 0:25–0:30 — Show them the file tree (5 min)
 This is where you slow down and make the migration real.
