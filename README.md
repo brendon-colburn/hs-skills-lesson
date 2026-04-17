@@ -4,17 +4,22 @@
 
 ---
 
-## 🚀 Start here (click this)
+## 🚀 Start here
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/YOUR_USERNAME/YOUR_REPO_NAME?quickstart=1)
+**Step 1 — Launch your Codespace** (this is your free cloud computer with everything pre-installed):
 
-> Replace `YOUR_USERNAME/YOUR_REPO_NAME` in the link above after you create the repo.
+1. At the top of this repo page, click the green **`<> Code`** button
+2. Switch to the **Codespaces** tab
+3. Click **Create codespace on main**
+4. Wait ~90 seconds while it boots — VS Code will open right in your browser
 
-**What happens when you click it:**
-1. GitHub spins up a free cloud computer just for you (~90 seconds)
-2. VS Code opens in your browser with everything pre-installed
-3. The notebook file `build_your_first_agent.ipynb` is ready to go
-4. You start building
+**Step 2 — Open the notebook:**
+
+Once VS Code loads, open **[`build_your_first_agent.ipynb`](build_your_first_agent.ipynb)** by clicking it in the file tree on the left side of the screen (or just click that link). That's the file you'll work in for the whole class.
+
+**Step 3 — Pick the Python kernel:**
+
+When the notebook opens, look in the **top-right corner** of the notebook. If it says "Select Kernel," click it → choose **Python Environments** → pick the recommended Python 3 option. (If it already shows a Python version, you're good.)
 
 **No installs. No terminal setup. Everything just works.**
 
