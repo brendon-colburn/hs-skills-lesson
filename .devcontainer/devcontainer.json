@@ -27,7 +27,7 @@
     }
   },
 
-  "postCreateCommand": "pip install --upgrade pip && pip install openai ipykernel",
+  "postCreateCommand": "pip install --upgrade pip && pip install 'openai==1.109.1' ipykernel",
 
   "postAttachCommand": {
     "welcome": "echo '\\n✅ Environment ready. Open build_your_first_agent.ipynb to start.\\n'"

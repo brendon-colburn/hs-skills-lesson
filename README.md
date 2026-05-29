@@ -21,6 +21,8 @@ Once VS Code loads, open **[`build_your_first_agent.ipynb`](build_your_first_age
 
 When the notebook opens, look in the **top-right corner** of the notebook. If it says "Select Kernel," click it → choose **Python Environments** → pick the recommended Python 3 option. (If it already shows a Python version, you're good.)
 
+> 🛟 **Don't see Python 3 listed?** The Codespace is probably still finishing setup. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) → type **`Developer: Reload Window`** → press Enter. After it reloads, click "Select Kernel" again and Python 3 should be there.
+
 **No installs. No terminal setup. Everything just works.**
 
 ---
