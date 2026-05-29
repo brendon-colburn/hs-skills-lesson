@@ -108,7 +108,9 @@ Everything in this repo is yours. After class:
 - **Your notebook** with whatever skills you built — they persist
 - **GitHub Copilot Free** (2,000 completions + 50 chat messages/month) keeps working forever
 - **Your PAT** keeps working for GitHub Models (~150 free requests/day)
-- **Your skills** in `.github/skills/` — fork and share them
+- **Your skills** in `.github/skills/` — fork the repo and they become a public portfolio piece you can put on a résumé or internship application
+
+> 🚀 **Want to keep building?** The last section of the notebook — **"Where to go from here"** — walks through forking this repo into your own GitHub account, turning your skills into portfolio pieces, and suggests 5 next builds (more skills, swapping models, wiring to real APIs, CLI version, Discord bot).
 
 ---
 
