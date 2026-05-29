@@ -9,7 +9,10 @@
 1. A GitHub account (free)
 2. A **GitHub Models token** (your password for talking to AI models — generated for you by the Models playground)
 
-That's it. No credit card. No school email required. Just a browser.
+That's it. No credit card. Just a browser.
+
+> 🚨 **Use a personal email (Gmail, Outlook, iCloud, etc.) — NOT your school `.edu` email.**
+> GitHub blocks most `.edu` domains at signup, and if you get stuck on this in class you can't move forward. If you only have a school email, **make a free personal one before class** (gmail.com takes 2 minutes). You can always link your `.edu` later via GitHub Student Developer Pack.
 
 ---
 
@@ -69,9 +72,17 @@ This trims 90 seconds off class time for you. Not required.
 
 ## ✅ You're ready when you have:
 
-- [ ] A GitHub account you can sign in to
+- [ ] A GitHub account you can sign in to (with a **personal** email, not `.edu`)
 - [ ] A GitHub Models token (`github_pat_...` or `ghp_...`) copied somewhere you can paste from
 - [ ] Accepted the GitHub Models terms at least once (happens automatically the first time you open the playground)
 - [ ] A browser (Chrome, Edge, Safari, or Firefox — all fine)
+
+---
+
+## 🚨 Day-of-class heads up: the token popup
+
+When class starts and you run the cell that asks for your token, **a text input box pops up at the very TOP of the VS Code window** — not inside the notebook cell. Paste your token into that top box and press **Enter**.
+
+This trips up almost everyone. Just remember: **look up**, paste, press Enter.
 
 See you in class. 🤖
